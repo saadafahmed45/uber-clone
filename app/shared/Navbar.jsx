@@ -1,3 +1,4 @@
+import { UserButton } from '@clerk/nextjs'
 import React from 'react'
 
 const Navbar = () => {
@@ -16,7 +17,7 @@ const Navbar = () => {
             <ul className='link_item flex gap-3 text-lg  items-center'>
                 <li> <a href="3">En</a></li>
                 <li> <a href="3">Help</a></li>
-                <li className=' bg-white text-black p-1 rounded-xl' > <a href="3">Signup</a></li>
+                <UserButton />
             </ul>
         </nav>
     )
